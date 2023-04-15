@@ -4,8 +4,9 @@
   "description": "blog app",
   "main": "server.js",
   "scripts": {
-    "start": "node serevr.js",
     "server": "nodemon server.js",
+    "start": "node serevr.js",
+    
     "client":"npm start --prefix ./client",
     "dev": "concurrently \"npm start\" \"npm run client\""
   },
